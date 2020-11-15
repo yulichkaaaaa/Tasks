@@ -10,7 +10,7 @@ public class Main {
         NumberSequence sequence = new NumberSequence(arr);
         arr = sequence.getSequence();
         SequenceService sequenceService = new SequenceService();
-        boolean result = sequenceService.sequenceHasTwoEven(arr);
+        boolean result = sequenceService.sequenceHasTwoEven(sequence);
         SequenceReport sequenceReport = new SequenceReport();
         sequenceReport.sequenceHasTwoEven(result);
     }

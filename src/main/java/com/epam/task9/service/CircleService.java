@@ -10,7 +10,7 @@ public class CircleService {
         return PI * 2 * radius;
     }
 
-    public double countSquare(Circle circle){
+    public double countArea(Circle circle){
         double radius = circle.getRadius();
         return PI * radius * radius;
     }

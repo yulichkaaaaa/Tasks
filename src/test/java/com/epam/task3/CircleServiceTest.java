@@ -9,7 +9,7 @@ import static org.testng.Assert.assertEquals;
 public class CircleServiceTest {
 
     @Test
-    public void daysInMonthTest() {
+    public void calculateRadiusInscribedTest() {
         CircleService service = new CircleService();
         double actual = service.calculateRadiusInscribed(10.0);
         double expected = 5.0;

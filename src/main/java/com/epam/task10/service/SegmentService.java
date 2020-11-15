@@ -4,7 +4,7 @@ import com.epam.task10.entity.Segment;
 
 import static java.lang.Math.*;
 
-public class SolutionService {
+public class SegmentService {
 
     public double[] argumentValues(Segment segment) {
         double start = segment.getStart();

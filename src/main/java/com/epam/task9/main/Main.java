@@ -9,7 +9,7 @@ public class Main {
         CircleService circleService = new CircleService();
         Circle circle = new Circle(5);
         double length = circleService.countLength(circle);
-        double area = circleService.countSquare(circle);
+        double area = circleService.countArea(circle);
         CircleReport circleReport = new CircleReport();
         circleReport.circleLength(circle, length);
         circleReport.circleArea(circle, area);

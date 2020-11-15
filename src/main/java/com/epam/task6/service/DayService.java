@@ -14,11 +14,11 @@ public class DayService {
         return new Day(hours, minutes, seconds);
     }
 
-    private int secondsToHours(int seconds){
+    public int secondsToHours(int seconds){
         return seconds / SECONDS_IN_HOUR;
     }
 
-    private int secondsToMinutes(int seconds) {
+    public int secondsToMinutes(int seconds) {
         return seconds / SECONDS_IN_MINUTE;
      }
 }
